@@ -12,7 +12,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Code](https://img.shields.io/badge/Code-Coming%20Soon-orange.svg)](https://github.com/wanghuacan/RepoMaster)
 
-[English](README_EN.md) | [中文](README.md)
+[English](README.md) | [中文](README_CN.md)
 
 </div>
 
