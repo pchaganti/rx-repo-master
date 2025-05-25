@@ -10,8 +10,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Paper](https://img.shields.io/badge/Paper-NeurIPS%202025-red.svg)](paper.pdf)
-[![Code](https://img.shields.io/badge/Code-Coming%20Soon-orange.svg)](https://github.com/your-org/RepoMaster)
+[![Code](https://img.shields.io/badge/Code-Coming%20Soon-orange.svg)](https://github.com/wanghuacan/RepoMaster)
 
 [English](README_EN.md) | [中文](README.md)
 
@@ -96,7 +95,7 @@ RepoMaster is a revolutionary autonomous agent framework specifically designed t
 | OpenHands | Claude 3.5 | 48.15% | 24.07% | 3094k |
 | **RepoMaster** | **Claude 3.5** | **75.92%** | **62.96%** | **154k** |
 
-### MLE-R Evaluation
+### MLE-Bench Evaluation
 
 | Framework | LLM | Valid Submission Rate | Medal Rate | Gold Medal Rate |
 |-----------|-----|----------------------|------------|-----------------|
@@ -385,7 +384,7 @@ class CustomRepoSearcher:
 # Evaluate on GitTaskBench
 python -m core.git_task --config configs/gittaskbench.yaml
 
-# Evaluate on MLE-R  
+# Evaluate on MLE-Bench  
 python -m core.git_task --config configs/mle_r.yaml
 ```
 

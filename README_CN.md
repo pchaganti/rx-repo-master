@@ -10,8 +10,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Paper](https://img.shields.io/badge/Paper-NeurIPS%202025-red.svg)](paper.pdf)
-[![Code](https://img.shields.io/badge/Code-Coming%20Soon-orange.svg)](https://github.com/your-org/RepoMaster)
+[![Code](https://img.shields.io/badge/Code-Coming%20Soon-orange.svg)](https://github.com/wanghuacan/RepoMaster)
 
 [English](README_EN.md) | [中文](README.md)
 
@@ -96,7 +95,7 @@ RepoMaster 是一个革命性的自主代理框架，专门设计用于探索、
 | OpenHands | Claude 3.5 | 48.15% | 24.07% | 3094k |
 | **RepoMaster** | **Claude 3.5** | **75.92%** | **62.96%** | **154k** |
 
-### MLE-R 评测结果
+### MLE-Bench 评测结果
 
 | 框架 | LLM | 有效提交率 | 奖牌获得率 | 金牌率 |
 |------|-----|------------|------------|--------|
@@ -385,7 +384,7 @@ class CustomRepoSearcher:
 # 在GitTaskBench上评估
 python -m core.git_task --config configs/gittaskbench.yaml
 
-# 在MLE-R上评估  
+# 在MLE-Bench上评估  
 python -m core.git_task --config configs/mle_r.yaml
 ```
 
