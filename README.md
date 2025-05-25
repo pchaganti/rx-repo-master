@@ -85,6 +85,26 @@ RepoMaster is a revolutionary autonomous agent framework specifically designed t
 - **Smart Compression**: Efficiently manage massive code information within limited LLM context windows
 - **Autonomous Execution**: End-to-end completion from task understanding to code execution
 
+
+## 📊 Performance Results
+
+### GitTaskBench Evaluation
+
+| Framework | LLM | Execution Completion Rate | Task Pass Rate | Token Usage |
+|-----------|-----|---------------------------|----------------|-------------|
+| SWE-Agent | Claude 3.5 | 44.44% | 14.81% | 330k |
+| OpenHands | Claude 3.5 | 48.15% | 24.07% | 3094k |
+| **RepoMaster** | **Claude 3.5** | **75.92%** | **62.96%** | **154k** |
+
+### MLE-R Evaluation
+
+| Framework | LLM | Valid Submission Rate | Medal Rate | Gold Medal Rate |
+|-----------|-----|----------------------|------------|-----------------|
+| SWE-Agent | Claude 3.5 | 50.00% | 4.55% | 4.55% |
+| OpenHands | Claude 3.5 | 45.45% | 4.55% | 4.55% |
+| **RepoMaster** | **Claude 3.5** | **95.45%** | **27.27%** | **22.73%** |
+
+
 ## ✨ Key Features
 
 ### 🔍 Intelligent Repository Search
@@ -109,24 +129,6 @@ RepoMaster is a revolutionary autonomous agent framework specifically designed t
 - **Universality**: Support multiple LLM backends (GPT-4o, Claude-3.5, DeepSeek-V3)
 - **Extensibility**: Modular design supporting custom tools and extensions
 
-
-## 📊 Performance Results
-
-### GitTaskBench Evaluation
-
-| Framework | LLM | Execution Completion Rate | Task Pass Rate | Token Usage |
-|-----------|-----|---------------------------|----------------|-------------|
-| SWE-Agent | Claude 3.5 | 44.44% | 14.81% | 330k |
-| OpenHands | Claude 3.5 | 48.15% | 24.07% | 3094k |
-| **RepoMaster** | **Claude 3.5** | **75.92%** | **62.96%** | **154k** |
-
-### MLE-R Evaluation
-
-| Framework | LLM | Valid Submission Rate | Medal Rate | Gold Medal Rate |
-|-----------|-----|----------------------|------------|-----------------|
-| SWE-Agent | Claude 3.5 | 50.00% | 4.55% | 4.55% |
-| OpenHands | Claude 3.5 | 45.45% | 4.55% | 4.55% |
-| **RepoMaster** | **Claude 3.5** | **95.45%** | **27.27%** | **22.73%** |
 
 ## 🚀 Quick Start
 
@@ -488,14 +490,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you use RepoMaster in your research, please cite our paper:
 
-```bibtex
-@article{repomaster2025,
-  title={RepoMaster: Autonomous Exploration and Understanding of GitHub Repositories for Complex Task Solving},
-  author={Your Authors},
-  journal={NeurIPS},
-  year={2025}
-}
-```
 
 ## 🙏 Acknowledgments
 
@@ -507,9 +501,9 @@ Thanks to the following projects and communities for inspiration and support:
 
 ## 📞 Contact Us
 
-- 📧 Email: [your-email@domain.com]
-- 🐛 Issues: [GitHub Issues](https://github.com/your-org/RepoMaster/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/your-org/RepoMaster/discussions)
+- 📧 Email: [wanghuacan17@mails.ucas.ac.cn]
+- 🐛 Issues: [GitHub Issues](https://github.com/wanghuacan/RepoMaster/issues)
+- 💬 Discussions: [GitHub Discussions](https://github.com/wanghuacan/RepoMaster/discussions)
 
 ---
 

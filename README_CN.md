@@ -85,6 +85,26 @@ RepoMaster 是一个革命性的自主代理框架，专门设计用于探索、
 - **智能压缩**：在有限的LLM上下文窗口内高效管理海量代码信息
 - **自主执行**：端到端地完成从任务理解到代码执行的全流程
 
+
+## 📊 性能表现
+
+### GitTaskBench 评测结果
+
+| 框架 | LLM | 执行完成率 | 任务通过率 | Token消耗 |
+|------|-----|------------|------------|-----------|
+| SWE-Agent | Claude 3.5 | 44.44% | 14.81% | 330k |
+| OpenHands | Claude 3.5 | 48.15% | 24.07% | 3094k |
+| **RepoMaster** | **Claude 3.5** | **75.92%** | **62.96%** | **154k** |
+
+### MLE-R 评测结果
+
+| 框架 | LLM | 有效提交率 | 奖牌获得率 | 金牌率 |
+|------|-----|------------|------------|--------|
+| SWE-Agent | Claude 3.5 | 50.00% | 4.55% | 4.55% |
+| OpenHands | Claude 3.5 | 45.45% | 4.55% | 4.55% |
+| **RepoMaster** | **Claude 3.5** | **95.45%** | **27.27%** | **22.73%** |
+
+
 ## ✨ 主要特性
 
 ### 🔍 智能仓库搜索
@@ -109,24 +129,6 @@ RepoMaster 是一个革命性的自主代理框架，专门设计用于探索、
 - **通用性**：支持多种LLM后端(GPT-4o、Claude-3.5、DeepSeek-V3)
 - **可扩展性**：模块化设计，支持自定义工具和扩展
 
-
-## 📊 性能表现
-
-### GitTaskBench 评测结果
-
-| 框架 | LLM | 执行完成率 | 任务通过率 | Token消耗 |
-|------|-----|------------|------------|-----------|
-| SWE-Agent | Claude 3.5 | 44.44% | 14.81% | 330k |
-| OpenHands | Claude 3.5 | 48.15% | 24.07% | 3094k |
-| **RepoMaster** | **Claude 3.5** | **75.92%** | **62.96%** | **154k** |
-
-### MLE-R 评测结果
-
-| 框架 | LLM | 有效提交率 | 奖牌获得率 | 金牌率 |
-|------|-----|------------|------------|--------|
-| SWE-Agent | Claude 3.5 | 50.00% | 4.55% | 4.55% |
-| OpenHands | Claude 3.5 | 45.45% | 4.55% | 4.55% |
-| **RepoMaster** | **Claude 3.5** | **95.45%** | **27.27%** | **22.73%** |
 
 ## 🚀 快速开始
 
@@ -489,14 +491,6 @@ pre-commit install
 
 如果您在研究中使用了RepoMaster，请引用我们的论文：
 
-```bibtex
-@article{repomaster2025,
-  title={RepoMaster: Autonomous Exploration and Understanding of GitHub Repositories for Complex Task Solving},
-  author={Your Authors},
-  journal={NeurIPS},
-  year={2025}
-}
-```
 
 ## 🙏 致谢
 
@@ -508,9 +502,9 @@ pre-commit install
 
 ## 📞 联系我们
 
-- 📧 Email: [your-email@domain.com]
-- 🐛 Issues: [GitHub Issues](https://github.com/your-org/RepoMaster/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/your-org/RepoMaster/discussions)
+- 📧 Email: [wanghuacan17@mails.ucas.ac.cn]
+- 🐛 Issues: [GitHub Issues](https://github.com/wanghuacan/RepoMaster/issues)
+- 💬 Discussions: [GitHub Discussions](https://github.com/wanghuacan/RepoMaster/discussions)
 
 ---
 
