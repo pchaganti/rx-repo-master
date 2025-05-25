@@ -60,7 +60,7 @@ Watch how RepoMaster autonomously completes complex neural style transfer tasks:
 
 <div align="center">
 
-<video controls width="600"><source src="https://github.com/user-attachments/assets/example/demo.mp4" type="video/mp4">Your browser does not support the video tag.</video>
+<img src="example/demo_ultra_hq.gif" alt="RepoMaster Demo" width="800"/>
 
 *Complete process of RepoMaster autonomously executing neural style transfer task*
 

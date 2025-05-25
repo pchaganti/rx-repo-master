@@ -60,7 +60,7 @@
 
 <div align="center">
 
-<video controls width="600"><source src="https://github.com/user-attachments/assets/example/demo.mp4" type="video/mp4">您的浏览器不支持视频标签。</video>
+<img src="example/demo_ultra_hq.gif" alt="RepoMaster演示" width="800"/>
 
 *RepoMaster自主执行图像风格迁移任务的完整过程*
 
