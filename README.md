@@ -79,7 +79,7 @@ RepoMaster is a revolutionary autonomous agent framework specifically designed t
 
 ### 🎨 Illustration of RepoMaster Framework
 
-![RepoMaster 框架示意图](example/overview.png)
+<img src="example/overview.png" alt="RepoMaster 框架示意图" style="width: 600px; padding: 20px; background-color: #ffffff; display: block; margin: 0 auto;" />
 
 ### 🎯 Core Philosophy
 
