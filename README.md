@@ -77,6 +77,10 @@ Watch how RepoMaster autonomously completes complex neural style transfer tasks:
 
 RepoMaster is a revolutionary autonomous agent framework specifically designed to explore, understand, and utilize GitHub repositories for solving complex real-world tasks. Unlike traditional approaches that generate code from scratch, RepoMaster treats open-source repositories on GitHub as composable tool modules, automatically leveraging these resources through intelligent search, hierarchical analysis, and autonomous exploration.
 
+### 🎨 Illustration of RepoMaster Framework
+
+![RepoMaster 框架示意图](example/overview.png)
+
 ### 🎯 Core Philosophy
 
 - **Repositories as Tools**: Treat open-source repositories as pre-built toolkits for solving complex tasks
@@ -96,6 +100,8 @@ RepoMaster is a revolutionary autonomous agent framework specifically designed t
 | **RepoMaster** | **Claude 3.5** | **75.92%** | **62.96%** | **154k** |
 
 ### MLE-Bench Evaluation
+
+Note: MLE-Bench-R consists of 22 Kaggle competition tasks, all drawn from MLE-Bench and nearly identical to those in MLE-Bench-Lite. Unlike the original MLE-Bench, however, tasks in MLE-Bench-R require you to find GitHub repositories that can solve each problem and to understand and leverage their code—rather than writing entirely new solutions from scratch—to complete and submit your results.
 
 | Framework | LLM | Valid Submission Rate | Medal Rate | Gold Medal Rate |
 |-----------|-----|----------------------|------------|-----------------|
@@ -257,7 +263,7 @@ result = explorer.code_analysis(task)
 
 ## 🛠️ Core Components
 
-### 1. Repository Search Module (`deep_research.py`)
+### 1. Repository Search Module (`deep_search.py`)
 
 ```python
 async def github_repo_search(self, task):
