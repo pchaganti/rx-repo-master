@@ -59,11 +59,14 @@ Watch how RepoMaster autonomously completes complex neural style transfer tasks:
 
 <div align="center">
 
-[![RepoMaster Demo](https://img.youtube.com/vi/Kva2wVhBkDU/maxresdefault.jpg)](https://www.youtube.com/watch?v=Kva2wVhBkDU)
+<img src="example/demo_ultra_hq.gif" alt="RepoMaster Demo" width="800"/>
 
 *Complete process of RepoMaster autonomously executing neural style transfer task*
 
 </div>
+
+<!-- 备用YouTube链接 -->
+<p><strong>🎬 <a href="https://www.youtube.com/watch?v=Kva2wVhBkDU">Watch Youtube demo</a></strong></p>
 
 **Demo Highlights**:
 - 🤖 **Zero Human Intervention**: Fully automated from task understanding to result generation
