@@ -10,6 +10,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![arXiv](https://img.shields.io/badge/arXiv-2505.21577-red.svg)](https://arxiv.org/abs/2505.21577)
 [![Code](https://img.shields.io/badge/Code-Coming%20Soon-orange.svg)](https://github.com/wanghuacan/RepoMaster)
 
 [English](README.md) | [中文](README_CN.md)
@@ -53,7 +54,7 @@
 3. 🔧 **自主执行**: 自动配置环境、加载模型、处理图像。
 4. ✅ **完成任务**: 生成风格迁移后的图像，无需人工干预。
 
-### 🎬 完整执行演示 (风格迁移)
+### 🎬 完整执行演示 (风格迁移) | [📺 YouTube演示](https://www.youtube.com/watch?v=Kva2wVhBkDU)
 
 观看RepoMaster如何自主完成复杂的图像风格迁移任务：
 
