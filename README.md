@@ -55,7 +55,8 @@ Imagine describing a task in natural language, and RepoMaster automatically hand
 
 ### 🎬 Complete Execution Demo (Style Transfer)
 
-Watch how RepoMaster autonomously completes complex neural style transfer tasks:
+<!-- 备用YouTube链接 -->
+<p><strong>🎬 <a href="https://www.youtube.com/watch?v=Kva2wVhBkDU">Watch how RepoMaster autonomously completes complex neural style transfer tasks:</a></strong></p>
 
 <div align="center">
 
@@ -64,9 +65,6 @@ Watch how RepoMaster autonomously completes complex neural style transfer tasks:
 *Complete process of RepoMaster autonomously executing neural style transfer task*
 
 </div>
-
-<!-- 备用YouTube链接 -->
-<p><strong>🎬 <a href="https://www.youtube.com/watch?v=Kva2wVhBkDU">Watch Youtube demo</a></strong></p>
 
 **Demo Highlights**:
 - 🤖 **Zero Human Intervention**: Fully automated from task understanding to result generation
