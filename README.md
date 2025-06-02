@@ -53,10 +53,10 @@ Imagine describing a task in natural language, and RepoMaster automatically hand
 3. 🔧 **Autonomous Execution**: Automatically configure environment, load models, and process images.
 4. ✅ **Task Completion**: Generate style-transferred images without human intervention.
 
-### 🎬 Complete Execution Demo (Style Transfer)
+<! ### 🎬 Complete Execution Demo (Style Transfer)>
 
 <!-- 备用YouTube链接 -->
-<p><strong>🎬 <a href="https://www.youtube.com/watch?v=Kva2wVhBkDU">Watch how RepoMaster autonomously completes complex neural style transfer tasks:</a></strong></p>
+<p><strong>🎬 <a href="https://www.youtube.com/watch?v=Kva2wVhBkDU">### Watch how RepoMaster autonomously completes complex neural style transfer tasks:</a></strong></p>
 
 <div align="center">
 
