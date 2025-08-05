@@ -19,6 +19,12 @@
 
 > **📢 Important Notice**: The complete source code will be open-sourced after paper publication. Currently, we provide project demonstrations and partial code examples.
 
+## 🚀 Overview
+
+RepoMaster is a revolutionary autonomous agent framework specifically designed to explore, understand, and utilize GitHub repositories for solving complex real-world tasks. Unlike traditional approaches that generate code from scratch, RepoMaster treats open-source repositories on GitHub as composable tool modules, automatically leveraging these resources through intelligent search, hierarchical analysis, and autonomous exploration.
+
+<img src="example/performance_01.jpg" alt="RepoMaster 效果图" style="width: 600px; padding: 20px; background-color: #ffffff; display: block; margin: 0 auto;" />
+
 ## 🎯 Quick Demo
 
 Imagine describing a task in natural language, and RepoMaster automatically handles the rest: from finding the most suitable GitHub repository and understanding its complex code structure, to finally executing and completing the task! RepoMaster can handle everything from simple data extraction to complex AI model applications.
@@ -31,7 +37,6 @@ Imagine describing a task in natural language, and RepoMaster automatically hand
 -   **Complex Tasks**:
     -   "Transform this portrait photo into the style of a Van Gogh oil painting." (As demonstrated below)
     -   "Automatically edit this long video, extract all exciting clips featuring a specific person, and add background music."
-    -   "Process this meeting recording, separate different speakers' voices, generate meeting minutes, and extract key action items."
 
 ### 🎨 Neural Style Transfer Task Demo (Complex Task Example)
 
@@ -72,9 +77,7 @@ Imagine describing a task in natural language, and RepoMaster automatically hand
 
 ---
 
-## 🚀 Overview
-
-RepoMaster is a revolutionary autonomous agent framework specifically designed to explore, understand, and utilize GitHub repositories for solving complex real-world tasks. Unlike traditional approaches that generate code from scratch, RepoMaster treats open-source repositories on GitHub as composable tool modules, automatically leveraging these resources through intelligent search, hierarchical analysis, and autonomous exploration.
+## 🚀 Framework
 
 ### 🎨 Illustration of RepoMaster Framework
 
